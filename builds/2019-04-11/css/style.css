@@ -1,0 +1,192 @@
+/*********************************************
+
+This is the style file for this project.
+
+**********************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Times, serif;
+  overflow: hidden;
+}
+
+#wrapper {
+  /* position: absolute; */
+  margin: 0;
+  padding: 0;
+}
+
+#game {
+  width: 90vw;
+}
+
+#board {
+  width: 90vw;
+}
+
+#pgn {
+  margin-top: 1em;
+  width: 90vw;
+  font-size: 3em;
+  overflow-y: scroll;
+  height: 20vw;
+  border: 1px solid grey;
+}
+
+#title {
+  margin-top: 1em;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#header {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0em;
+}
+
+#sub-header {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#game {
+  margin: 0 auto;
+  display: none;
+  border: none;
+}
+
+.menu_button {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  text-decoration: underline;
+}
+
+#logo {
+  margin-top: 3em;
+  text-align: center;
+}
+
+#logo img {
+
+}
+
+#interstitials {
+  margin: 0 auto;
+  width: 50vw;
+  font-size: 3em;
+  text-align: left;
+  font-style: italic;
+  margin-top: 2em;
+}
+
+.quote {
+  margin-bottom: 0.5em;
+}
+
+.credit {
+  font-size: 0.75em;
+  text-align: right;
+  font-style: normal;
+}
+
+.nodisplay {
+  display: none;
+}
+
+
+@media only screen and (min-device-width: 768px) {
+
+  #title {
+    margin-top: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  #interstitials {
+    font-size: 2em;
+  }
+
+  #header {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0em;
+  }
+
+  #sub-header {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+
+  #game {
+    /* background-color: red; */
+    width: 400px;
+  }
+
+  #board {
+    width: 400px;
+  }
+
+  #pgn {
+    margin-top: 1em;
+    width: 400px;
+    font-size: 1.5em;
+    height: 100px;
+    overflow-y: scroll;
+    border: 1px solid grey;
+  }
+
+  .menu_button {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+  }
+
+  #logo img {
+    max-width: 50px;
+    text-align: center;
+  }
+
+}
+
+
+#menu {
+}
+
+
+#sisyphus {
+  text-decoration-color: #aaf;
+}
+
+#prometheus {
+  text-decoration-color: #faa;
+}
+
+#zeno {
+  text-decoration-color: #dad;
+}
+
+#danaids {
+  text-decoration-color: #dda;
+}
+
+#tantalus {
+  text-decoration-color: #ada;
+}
